@@ -5,9 +5,8 @@ RUN cd MPRAsnakeflow
 RUN conda create -c bioconda -c conda-forge -n mprasnakeflow snakemake sra-tools
 RUN mkdir -p assoc_basic/data
 
-# Make RUN commands use `bash --login`:
-SHELL ["/bin/bash", "--login", "-c"]
+# Activate the Conda environment
+RUN echo "conda activate mprasnakeflow" >> ~/.bashrc
 
-# Initialize conda in bash config fiiles:
-RUN conda init bash
-RUN conda activate mprasnakeflow
+# Set the default command to activate the environment
+CMD ["conda", "run", "-n", "mprasnakeflow"]
