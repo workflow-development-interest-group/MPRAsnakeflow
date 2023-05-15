@@ -9,4 +9,5 @@ RUN mkdir -p assoc_basic/data
 RUN echo "conda activate mprasnakeflow" >> ~/.bashrc
 
 # Set the default command to activate the environment
-CMD ["conda", "run", "-n", "mprasnakeflow"]
+RUN conda run -n mprasnakeflow
+# CMD ["conda", "run", "-n", "mprasnakeflow"]
