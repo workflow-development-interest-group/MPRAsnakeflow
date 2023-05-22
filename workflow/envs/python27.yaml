@@ -6,5 +6,5 @@ channels:
 dependencies:
   - htslib
   - pysam
-  - python=2.7
+  - python #- python=2.7
   - samtools
