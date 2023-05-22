@@ -145,6 +145,7 @@ dependencies:
   - pyopenssl=23.1.1=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
   - pyrsistent=0.19.3=py310h1fa729e_0
+  - pysam
   - pysftp=0.2.9=py_1
   - pysocks=1.7.1=pyha2e5f31_6
   - pytest=7.3.1=pyhd8ed1ab_0
