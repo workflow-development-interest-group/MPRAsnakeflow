@@ -167,6 +167,7 @@ dependencies:
   - rich=13.3.5=pyhd8ed1ab_0
   - rsa=4.9=pyhd8ed1ab_0
   - ruamel_yaml=0.15.80=py310h5764c6d_1008
+  - samtools
   - s3transfer=0.6.1=pyhd8ed1ab_0
   - setuptools=67.7.2=pyhd8ed1ab_0
   - setuptools-scm=7.1.0=pyhd8ed1ab_0
